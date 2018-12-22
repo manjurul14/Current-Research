@@ -1,4 +1,4 @@
-function [tfreq, tval]=showSpec(signal,  speed, fs,visible, fsol)
+function [tfreq, tval]=show_spectrum(signal,  speed, fs,visible, fsol)
 if nargin==4
     fsol=1;
 end
